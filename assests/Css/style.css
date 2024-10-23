@@ -1,0 +1,162 @@
+body{
+    font-family: lrancell;
+}
+@media  (max-width: 991.98px) {
+    .responsive-img {
+        max-height: 200px; 
+        object-fit: cover; 
+}
+.hotel-reservation {display: none;}
+}
+@media screen and (max-width: 560px) {
+    .small-secreen {
+      padding-bottom: 30px;
+      text-align: center;
+    }
+  
+    .custom-margin {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 0px;
+    }
+    .hotel-reservation {
+        max-width: max-content;
+        
+      }
+
+  }
+  
+.custom-margin {
+    margin-right: 60px;
+}
+.text-rap{
+    padding-top: 150px; 
+    padding-left: 80px; 
+}
+.main-rap{
+    background-color: #901D63;
+    margin-top: 30px;
+    position: relative;
+}
+.img-holder{
+    margin-top:-50px;
+    margin-right:-39px;
+    margin-bottom: -27px;
+}
+.hotel-reservation {
+  max-width: max-content;
+  /* display: flex; */
+  /* text-align: center;   */
+ 
+}
+.position-relative {
+    position: relative;
+  }
+  
+.position-absolute {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; 
+    z-index: 1; 
+    margin-top: 50px;
+  }
+  
+.btn-color{
+    background-color: #901D63;
+
+}
+.btn-color:hover{
+    background-color: #901D63;
+    color: aliceblue;
+}
+.list-color{
+    color: #901D63;
+    font-size: 19px;
+    font-weight:bold;
+    list-style-type: none;
+
+}
+.list-item{
+   color: #9E9E9E;
+}
+.about-holder{
+    background-color: #901D63;
+}
+.holder-img{
+    margin-bottom: -30px;
+    margin-top: -50px;
+    
+}
+.col-rap{
+    background-color: #901D63;
+}
+.text-color{
+    color: #901D63;
+}
+.text-btn {
+    background-color: #D8A7BE;
+}
+.text-btn:hover {
+    background-color: #D8A7BE;
+}
+.video-button{
+    margin-right: 60px;
+}
+.feature-holder img{
+ width: 100%;
+ height: auto;
+ overflow: hidden!important; 
+   
+}
+.feature-box {
+    position: relative;
+}
+.feature-box .text-icon{
+    position: absolute;
+    bottom: -8px;
+    display: flex;
+    right: 0;
+}
+
+.button-color{
+    background-color: #901D63;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+    
+}
+
+.feature-card{
+    padding-left: 170px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    padding-right: 20px;
+    border-bottom-right-radius: 15px;
+}
+.feature-card-grid{
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    padding-right: 20px;
+    border-bottom-right-radius: 15px;
+}
+
+.img-bg{
+    background-color: #901D63;
+}
+.heading-color{
+    color: #901D63;
+}
+.paragraph-color{
+    color: #D8A7BE;
+}
+.icon-img{
+    background-color: #901D63;
+}
+
+
